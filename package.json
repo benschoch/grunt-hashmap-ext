@@ -1,23 +1,23 @@
 {
-  "name": "grunt-hashmap-ext",
-  "description": "The best Grunt plugin ever.",
+  "name": "grunt-hashmap-ext2",
+  "description": "The second best Grunt plugin ever.",
   "version": "0.1.0-1",
-  "homepage": "https://github.com/stryju/grunt-hashmap-ext",
+  "homepage": "https://github.com/gstoert/grunt-hashmap-ext",
   "author": {
-    "name": "tomasz stryjewski",
-    "email": "stryjewski.t@gmail.com"
+    "name": "Benjamin Schoch",
+    "email": "benschoch@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stryju/grunt-hashmap-ext.git"
+    "url": "https://github.com/gstoert/grunt-hashmap-ext.git"
   },
   "bugs": {
-    "url": "https://github.com/stryju/grunt-hashmap-ext/issues"
+    "url": "https://github.com/gstoert/grunt-hashmap-ext/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/stryju/grunt-hashmap-ext/blob/master/LICENSE-MIT"
+      "url": "https://github.com/gstoert/grunt-hashmap-ext/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
