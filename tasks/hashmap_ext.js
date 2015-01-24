@@ -48,7 +48,11 @@ module.exports = function( grunt ) {
       hashesArray.push( hashesArrayEntry );
     } );
 
-    var outputString = '<?php\n$' + options.variable + ' = array(\n  ' +
+    var arrayPrefix = 'return';
+    if(options.variable != false){
+      var arrayPrefix = '$' + options.variable + ' =';
+    }
+    var outputString = '<?php\n'+arrayPrefix+' array(\n  ' +
       hashesArray.join( ',\n  ' ) +
       '\n);\n';
 
